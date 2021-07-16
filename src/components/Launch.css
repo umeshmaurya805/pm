@@ -1,0 +1,96 @@
+.container {
+  position: static;
+  background: #e5e5e5;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  position: absolute;
+  width: 70vw;
+  height: 90vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #4B3C99;
+  border-radius: 80px;
+  color: #e5e5e5;
+}
+
+.register {
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#signIn {
+  border: none;
+  background: none;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+#signUp {
+  background: #87C405;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: white;
+  cursor: pointer;
+  padding: 15px 23px;
+}
+
+.image {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.logo {
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  left: 10%;
+  top: 28%;
+  font-size: 25px;
+}
+
+.logo span{
+  color: #87C405;
+  font-size: 35px;
+}
+
+.description {
+  font-family: 'Lato', sans-serif;
+  font-size: 1;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  width: 48%;
+  text-align: start;
+}
+
+.description h1{
+  line-height: 40px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.description button{
+  border: none;
+  background: #87C405;
+  font-size: 12px;
+  line-height: 18px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  margin-top: 10px;
+  padding: 2px 60px;
+  position: absolute;
+  left: 10%;
+}
